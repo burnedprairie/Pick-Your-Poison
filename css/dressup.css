@@ -1,6 +1,5 @@
 html { 
-    cursor: url(../cursor/arrow.cur), default ;
-    background: url(../img/archive/dress\ up/forest.jpg) no-repeat center center fixed;
+    background: url(/img/archive/dress\ up/forest.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -13,30 +12,26 @@ html {
 
 
   a:link {
-    cursor: url(../cursor/Cursor_15.cur), default;
     color: #FF85D3;
   }
   a:visited {
-    cursor: url(../cursor/Cursor_15.cur), default;
     color: #FF85D3;
   }
   a:hover {
-    cursor: url(../cursor/Cursor_15.cur), default;
     color: red;
   }
   a:active {
-    cursor: url(../cursor/Cursor_15.cur), default;
     color: red;
   }
 
   @font-face {
     font-family: MS;
-    src: url(../fonts/MS\ Sans\ Serif.ttf);
+    src: url(/fonts/MS\ Sans\ Serif.ttf);
   }
 
   @font-face {
     font-family: MSBold;
-    src: url(../fonts/MS\ Sans\ Serif\ Bold.ttf);
+    src: url(/fonts/MS\ Sans\ Serif\ Bold.ttf);
   }
 
   header {
@@ -44,22 +39,18 @@ html {
   }
 
   .home:link {
-    cursor: url(../cursor/Cursor_15.cur), default;
     color: black;
     text-decoration: none;
   }
   .home:visited {
-    cursor: url(../cursor/Cursor_15.cur), default;
     color: black;
     text-decoration: none;
   }
   .home:hover {
-    cursor: url(../cursor/Cursor_15.cur), default;
     color: red;
     text-decoration: none;
   }
   .home:active {
-    cursor: url(../cursor/Cursor_15.cur), default;
     color: red;
     text-decoration: none;
   }
