@@ -83,6 +83,16 @@ html {
     min-height: 300px;
   }
 
+  .title {
+    font-family: MSBold;
+    text-decoration: none;
+  }
+
+  .bold {
+    font-family: MSBold;
+    color: white;
+  }
+
 
   .ascii {
     background-color: transparent;
