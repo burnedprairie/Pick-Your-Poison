@@ -8,8 +8,7 @@ html {
 
 @media only screen and (max-width: 600px) {
   html {
-    background: none;
-    background-color: #fee1e6;
+    background-image: linear-gradient(to bottom right, #fda5cb, #fee1e6);
   }
 }
 
