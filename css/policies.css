@@ -10,9 +10,6 @@ html {
   html {
     background-image: linear-gradient(to bottom right, #fda5cb, #fee1e6);
   }
-  .main-p {
-    width: 100%;
-  }
 }
 
 body {

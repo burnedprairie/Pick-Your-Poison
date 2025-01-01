@@ -11,9 +11,6 @@ html {
     html {
       background-image: linear-gradient(to bottom right, #fda5cb, #fee1e6);
     }
-    .description {
-      width: 100%;
-    }
   }
   
 
@@ -139,7 +136,7 @@ html {
   }
 
   .description {
-    padding-right: 300px;
+    padding-right: 100px;
   }
   
   :focus {
