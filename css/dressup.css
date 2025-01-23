@@ -70,6 +70,10 @@ html {
     padding-left: 10px;
   }
 
+  .headerlink2 {
+    padding-left: 10px;
+  }
+
   .collage {
     display: flex;
     text-align: center;
@@ -81,4 +85,11 @@ html {
 
   img {
     max-width: 95vw;
+  }
+
+  @media only screen and (max-width: 600px) {
+    
+    .headerlink2 {
+      display: none;
+    }
   }
