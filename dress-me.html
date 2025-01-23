@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dress Me</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="css/game.css">
+  <script type="text/javascript" src="js/sparkle.js"></script>
+</head>
+
+
+<body>
+
+
+  <div>
+
+    <header>
+      <h2> <a class="home" href="index.html">Pick Your Poison</a> </h2>
+    <hr>
+    <a href="identity.html">IDENTITY</a>
+    <a class="headerlink" href="policies.html">POLICIES</a>
+    <a class="headerlink" href="contact.html">CONTACT</a>
+    <a class="headerlink" href="archive.html">ARCHIVE</a>
+    <a class="headerlink2" href="dress-me.html">DRESS ME</a>
+    </header>
+
+    <img id=dreamgirltop style='top:150px;left:25px' src="img/dress up game/Dreamgirl Top.png">
+    <img id=byte style='top:150px;left:235px' src="img/dress up game/Byte Me Mini.png">
+    <img id=milkchemise style='top:150px;left:460px' src="img/dress up game/Milk Chemise.png">
+
+    <img id=belle style='top:350px;left:10px' src="img/dress up game/Belle Mini.png">
+    <img id=GFE style='top:350px;left:235px' src="img/dress up game/GFE Micro.png">
+
+    <img id=legwarmers style='top:500px;left:25px' src="img/dress up game/Legwarmers.png">
+    <img id=legwarmers2 style='top:500px;left:250px' src="img/dress up game/Legwarmers 2.png">
+
+    <img id=garter style='top:500px;left:460px' src="img/dress up game/Play With Me Garter.png">
+    
+    <img class="model" src="img/dress up game/model.png" alt="">
+  </div>
+
+
+    <script>
+        milkchemise.onpointerdown           = pd;
+        dreamgirltop.onpointerdown           = pd;
+        byte.onpointerdown           = pd;
+        belle.onpointerdown           = pd;
+        GFE.onpointerdown           = pd;
+        legwarmers.onpointerdown           = pd;
+        legwarmers2.onpointerdown           = pd;
+        garter.onpointerdown           = pd;
+        document.onpointerup        = ()=>document.onpointermove=null;
+
+        function pd(e){  
+        e.preventDefault();       //  <-- comment this line and drag the img 
+        node                      = e.target;  
+        mx                        = e.pageX;
+        my                        = e.pageY;
+        document.onpointermove    = pm;
+        }
+
+        function pm(e){
+        dx                        = e.pageX-mx;
+        dy                        = e.pageY-my;
+        mx                        = e.pageX;
+        my                        = e.pageY;
+        x                         = parseInt(node.style.left)+dx;
+        y                         = parseInt(node.style.top)+dy;
+        node.style.left           = x+'px';
+        node.style.top            = y+'px';
+        }
+    </script>
+
+
+<p class="mobiletext">
+  <br><br>
+  Hi :3
+  <br><br>
+  The Dress Me game is only available on computers atm
+</p>
+
+
+
+
+
+</body>
