@@ -11,6 +11,11 @@ html {
     html {
       background-image: linear-gradient(to bottom right, #fda5cb, #fee1e6);
     }
+
+    .headerlink2 {
+      display: none;
+    }
+    
   }
   
 
@@ -74,6 +79,10 @@ html {
   }
 
   .headerlink {
+    padding-left: 10px;
+  }
+
+  .headerlink2 {
     padding-left: 10px;
   }
 
