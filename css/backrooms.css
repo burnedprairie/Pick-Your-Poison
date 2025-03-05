@@ -1,0 +1,171 @@
+html {
+    background: url(/img/backrooms.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+  }
+
+  @media only screen and (max-width: 600px) {
+    html {
+      background-image: linear-gradient(to bottom right, #fda5cb, #fee1e6);
+    }
+
+    .headerlink2 {
+      display: none;
+    }
+    
+  }
+  
+
+  body {
+    min-height: 100vh;
+  }
+
+  a:link {
+    color: pink;
+  }
+  a:visited {
+    color: pink;
+  }
+  a:hover {
+    color: red;
+  }
+  a:active {
+    color: red;
+  }
+
+  header {
+    font-family: Arial, Helvetica, sans-serif
+  }
+
+  .home:link {
+    color: white;
+    text-decoration: none;
+  }
+  .home:visited {
+    color: white;
+    text-decoration: none;
+  }
+  .home:hover {
+    color: red;
+    text-decoration: none;
+  }
+  .home:active {
+    color: red;
+    text-decoration: none;
+  }
+
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+
+  hr {
+    border: 1px solid pink;
+    margin-top: -10px;
+    margin-bottom: 10px
+  
+  }
+
+  h2 {
+    color: white;
+  }
+
+  .headerlink {
+    padding-left: 10px;
+  }
+
+  .headerlink2 {
+    padding-left: 10px;
+  }
+
+  marquee {
+    font-family: Arial, Helvetica, sans-serif;
+    color: pink;
+  }
+
+  .readme {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 300px;
+  }
+
+  .title {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+  }
+
+  .bold {
+    font-family: MSBold;
+    color: white;
+  }
+
+
+  .ascii {
+    background-color: transparent;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 85%;
+    text-align: left;
+  }
+
+  .product {
+    margin-bottom: 5em;
+    min-height: 400px;
+    width: 100%;
+  }
+
+  .product-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+    font-size: medium;
+    color: red;
+  }
+
+  div.product-image {
+    display:inline-block;
+  }
+
+  img {
+    width: 100%;
+    max-width: 500px;
+    border: 0px;
+    border-style: solid;
+    border-image: black;
+  }
+
+  .main {
+    width: 100%;
+    max-width: 1000px;
+  }
+
+  .description {
+    padding-right: 100px;
+  }
+  
+  :focus {
+    outline: none !important;
+  }
+
+  .shopify-buy-frame--toggle.is-active.is-sticky {
+    border: 2px solid black;
+    border-radius: 5px;
+    
+    
+    position: fixed;
+    right: 10px;
+    top: 60px;
+  }
+
+  .shopify-buy-frame--cart {
+    background: linear-gradient(in hsl longer hue, #ffabcd, #ffb5d0, #febed4, #fdc8d8, #fbd1dd);
+  }
+
+  .shopify-buy__product__variant-selectors {
+    width: 50%;
+    max-width: 100px;
+  }
