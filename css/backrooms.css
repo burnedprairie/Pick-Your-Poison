@@ -6,21 +6,10 @@ html {
     background-size: cover;
     
   }
-
-  @media only screen and (max-width: 600px) {
-    html {
-      background-image: linear-gradient(to bottom right, #fda5cb, #fee1e6);
-    }
-
-    .headerlink2 {
-      display: none;
-    }
-    
-  }
   
-
   body {
     min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   a:link {
@@ -77,22 +66,9 @@ html {
     padding-left: 10px;
   }
 
-  .headerlink2 {
-    padding-left: 10px;
-  }
-
   marquee {
     font-family: Arial, Helvetica, sans-serif;
     color: pink;
-  }
-
-  .readme {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    min-height: 300px;
   }
 
   .title {
@@ -100,30 +76,10 @@ html {
     text-decoration: none;
   }
 
-  .bold {
-    font-family: MSBold;
-    color: white;
-  }
-
-
-  .ascii {
-    background-color: transparent;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 85%;
-    text-align: left;
-  }
-
   .product {
     margin-bottom: 5em;
     min-height: 400px;
     width: 100%;
-  }
-
-  .product-title {
-    font-family: 'Times New Roman', Times, serif;
-    font-weight:bold;
-    font-size: medium;
-    color: red;
   }
 
   div.product-image {
@@ -145,6 +101,14 @@ html {
 
   .description {
     padding-right: 100px;
+  }
+
+  .collections {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
   }
   
   :focus {
@@ -168,4 +132,37 @@ html {
   .shopify-buy__product__variant-selectors {
     width: 50%;
     max-width: 100px;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+
+    body:before {
+      content: "";
+      display: block;
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100vw;
+      height: 100vh;
+      z-index: -10;
+      background: url(/img/backrooms.jpg) no-repeat center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+
+    .headerlink {
+      font-size: 15px;
+    }
+
+    .headerlink2 {
+      font-size: 15px;
+    }
+
+    .description {
+      padding-right: 0;
+    }
+    
   }
