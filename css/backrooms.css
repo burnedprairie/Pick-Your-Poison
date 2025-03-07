@@ -91,6 +91,14 @@ html {
     max-width: 500px;
   }
 
+  .syringe {
+    width: 2%;
+  }
+
+  .butterfly {
+    width: 5%;
+  }
+
   .description {
     padding-right: 100px;
   }
