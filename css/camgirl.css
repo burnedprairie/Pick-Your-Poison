@@ -1,0 +1,106 @@
+html {
+    background: url(/img/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+  }
+  
+  body {
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  a:link {
+    color: pink;
+  }
+  a:visited {
+    color: pink;
+  }
+  a:hover {
+    color: red;
+  }
+  a:active {
+    color: red;
+  }
+
+  header {
+    font-family: Arial, Helvetica, sans-serif
+  }
+
+  .home:link {
+    color: white;
+    text-decoration: none;
+  }
+  .home:visited {
+    color: white;
+    text-decoration: none;
+  }
+  .home:hover {
+    color: red;
+    text-decoration: none;
+  }
+  .home:active {
+    color: red;
+    text-decoration: none;
+  }
+
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+
+  hr {
+    border: 1px solid pink;
+    margin-top: -10px;
+    margin-bottom: 10px
+  
+  }
+
+  h2 {
+    color: white;
+  }
+
+  .headerlink {
+    padding-left: 10px;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+@media only screen and (max-width: 600px) {
+
+  body:before {
+    content: "";
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -10;
+    background: url(/img/bg.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .headerlink {
+    font-size: 15px;
+  }
+
+  .headerlink2 {
+    font-size: 15px;
+  }
+  
+}
