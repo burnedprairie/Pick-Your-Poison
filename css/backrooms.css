@@ -108,7 +108,7 @@ html {
   }
 
   .shopify-buy-frame--toggle.is-active.is-sticky {
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 5px;
     
     
@@ -119,6 +119,7 @@ html {
 
   .shopify-buy-frame--cart {
     background: linear-gradient(in hsl longer hue, #ffabcd, #ffb5d0, #febed4, #fdc8d8, #fbd1dd);
+    background: none
   }
 
   .shopify-buy__product__variant-selectors {
