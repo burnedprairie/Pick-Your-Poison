@@ -165,5 +165,13 @@ html {
     .description {
       padding-right: 0;
     }
+
+    .syringe {
+      width: 10%;
+    }
+
+    .butterfly {
+      width: 25%;
+    }
     
   }
