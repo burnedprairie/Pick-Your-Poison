@@ -1,4 +1,4 @@
-var colour="#FF85D3";
+var colour="yellow";
       var sparkles=120;
       
       var x=ox=400;

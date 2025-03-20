@@ -1,30 +1,21 @@
 html {
-  background: url(/img/bg.jpg) no-repeat center center fixed;
+  background: url(/img/backrooms.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-@media only screen and (max-width: 600px) {
-  html {
-    background-image: linear-gradient(to bottom right, #fda5cb, #fee1e6);
-  }
-
-  .headerlink2 {
-    display: none;
-  }
-}
-
 body {
   min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 a:link {
-  color: #FF85D3;
+  color: pink;
 }
 a:visited {
-  color: #FF85D3;
+  color: pink;
 }
 a:hover {
   color: red;
@@ -33,26 +24,16 @@ a:active {
   color: red;
 }
 
-@font-face {
-  font-family: MS;
-  src: url(/fonts/MS\ Sans\ Serif.ttf);
-}
-
-@font-face {
-  font-family: MSBold;
-  src: url(/fonts/MS\ Sans\ Serif\ Bold.ttf);
-}
-
 header {
-  font-family: MSBold;
+  font-family: Arial, Helvetica, sans-serif
 }
 
 .home:link {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 .home:visited {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 .home:hover {
@@ -64,47 +45,81 @@ header {
   text-decoration: none;
 }
 
-  p {
-    font-family: MS;
-  }
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
 
-  hr {
-    border: 1px solid #FF85D3;
-    margin-top: -10px;
-    margin-bottom: 10px
-  
-  }
+hr {
+  border: 1px solid pink;
+  margin-top: -10px;
+  margin-bottom: 10px
 
-  .headerlink {
-    padding-left: 10px;
-  }
+}
 
-  .headerlink2 {
-    padding-left: 10px;
-  }
+h2 {
+  color: white;
+}
 
-  .title {
-    font-family: MSBold;
+.headerlink {
+  padding-left: 10px;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: underline;
   }
 
-  .main-p {
+.main-p {
     padding-right: 100px;
   }
 
   .section-title {
-    font-family: MSBold;
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: underline;
   }
 
   .bold {
-    font-family: MSBold;
+    font-family: Arial, Helvetica, sans-serif
+  }
+
+  .stairs {
+    width: 16%;
   }
 
 
-  .ascii {
-    background-color: transparent;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 85%;
-    text-align: left;
+@media only screen and (max-width: 600px) {
+
+    body:before {
+      content: "";
+      display: block;
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100vw;
+      height: 100vh;
+      z-index: -10;
+      background: url(/img/backrooms.jpg) no-repeat center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+
+    .headerlink {
+      font-size: 15px;
+    }
+
+    .headerlink2 {
+      font-size: 15px;
+    }
+
+    .main-p {
+      padding-right: 0;
+    }
+
+    .stairs {
+      width: 75%;
+    }
+    
   }

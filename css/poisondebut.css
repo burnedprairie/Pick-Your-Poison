@@ -8,13 +8,14 @@ html {
 
 body {
   min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 a:link {
-  color: #FF85D3;
+  color: pink;
 }
 a:visited {
-  color: #FF85D3;
+  color: pink;
 }
 a:hover {
   color: red;
@@ -23,26 +24,16 @@ a:active {
   color: red;
 }
 
-@font-face {
-  font-family: MS;
-  src: url(/fonts/MS\ Sans\ Serif.ttf);
-}
-
-@font-face {
-  font-family: MSBold;
-  src: url(/fonts/MS\ Sans\ Serif\ Bold.ttf);
-}
-
 header {
-  font-family: MSBold;
+  font-family: Arial, Helvetica, sans-serif
 }
 
 .home:link {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 .home:visited {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 .home:hover {
@@ -54,26 +45,28 @@ header {
   text-decoration: none;
 }
 
-  p {
-    font-family: MS;
-  }
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
 
-  hr {
-    border: 1px solid #FF85D3;
-    margin-top: -10px;
-    margin-bottom: 10px
-  
-  }
+hr {
+  border: 1px solid pink;
+  margin-top: -10px;
+  margin-bottom: 10px
 
-  .headerlink {
-    padding-left: 10px;
-  }
+}
 
-  .headerlink2 {
-    padding-left: 10px;
-  }
+h2 {
+  color: white;
+}
 
-  .collage {
+.headerlink {
+  padding-left: 10px;
+}
+
+
+.collage {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -82,12 +75,34 @@ header {
     min-height: 300px;
   }
 
-  img {
+img {
     max-width: 95vw;
   }
 
   @media only screen and (max-width: 600px) {
-    .headerlink2 {
-      display: none;
+
+    body:before {
+      content: "";
+      display: block;
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100vw;
+      height: 100vh;
+      z-index: -10;
+      background: url(/img/archive/poison\ debut/room.png) no-repeat center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
     }
-  }
+    
+    .headerlink {
+      font-size: 15px;
+    }
+    
+    .headerlink2 {
+      font-size: 15px;
+    }
+    
+    }
