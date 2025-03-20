@@ -135,6 +135,19 @@ html {
     max-width: 100px;
   }
 
+  table {
+    color: white;
+    border: 1.5px solid lightyellow;
+    border-collapse: collapse;
+  }
+
+  td, th {
+    border: 1.5px solid lightyellow;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+  }
+
 
   @media only screen and (max-width: 600px) {
 
