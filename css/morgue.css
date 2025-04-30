@@ -148,6 +148,10 @@ html {
     padding: 10px;
   }
 
+  video {
+    width: 28%;
+  }
+
 
   @media only screen and (max-width: 600px) {
 
@@ -160,7 +164,7 @@ html {
       width: 100vw;
       height: 100vh;
       z-index: -10;
-      background: url(/img/backrooms.jpg) no-repeat center center;
+      background: url(/img/morguebg.png) no-repeat center center;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -179,12 +183,8 @@ html {
       padding-right: 0;
     }
 
-    .syringe {
-      width: 10%;
-    }
-
-    .butterfly {
-      width: 25%;
+    video {
+      width: 100%;
     }
     
   }
