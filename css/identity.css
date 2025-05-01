@@ -1,5 +1,5 @@
 html {
-  background: url(/img/backrooms.jpg) no-repeat center center fixed;
+  background: url(/img/morguebg.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -86,7 +86,7 @@ h2 {
       width: 100vw;
       height: 100vh;
       z-index: -10;
-      background: url(/img/backrooms.jpg) no-repeat center center;
+      background: url(/img/morguebg.png) no-repeat center center;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
