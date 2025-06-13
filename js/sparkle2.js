@@ -1,4 +1,4 @@
-var colour="white";
+var colour="lightblue";
       var sparkles=120;
       
       var x=ox=400;

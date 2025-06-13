@@ -13,16 +13,16 @@ html {
   }
 
   a:link {
-    color: pink;
+    color: lightblue;
   }
   a:visited {
-    color: pink;
+    color: lightblue;
   }
   a:hover {
-    color: red;
+    color: black;
   }
   a:active {
-    color: red;
+    color: black;
   }
 
   header {
@@ -30,36 +30,36 @@ html {
   }
 
   .home:link {
-    color: white;
+    color: grey;
     text-decoration: none;
   }
   .home:visited {
-    color: white;
+    color: grey;
     text-decoration: none;
   }
   .home:hover {
-    color: red;
+    color: black;
     text-decoration: none;
   }
   .home:active {
-    color: red;
+    color: black;
     text-decoration: none;
   }
 
   p {
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
+    color: grey;
   }
 
   hr {
-    border: 1px solid pink;
+    border: 1px solid lightblue;
     margin-top: -10px;
     margin-bottom: 10px
   
   }
 
   h2 {
-    color: black;
+    color: grey;
   }
 
   .headerlink {
@@ -68,7 +68,7 @@ html {
 
   marquee {
     font-family: Arial, Helvetica, sans-serif;
-    color: pink;
+    color: darkgrey;
   }
 
   .title {
@@ -116,7 +116,7 @@ html {
   }
 
   .shopify-buy-frame--toggle.is-active.is-sticky {
-    border: 2px solid white;
+    border: 2px solid black;
     border-radius: 5px;
     
     
@@ -148,10 +148,6 @@ html {
     padding: 10px;
   }
 
-  video {
-    width: 28%;
-  }
-
 
   @media only screen and (max-width: 600px) {
 
@@ -181,10 +177,6 @@ html {
 
     .description {
       padding-right: 0;
-    }
-
-    video {
-      width: 100%;
     }
     
   }
