@@ -1,5 +1,5 @@
 html {
-  background: url(/img/morguebg.png) no-repeat center center fixed;
+  background: url(/img/polkadotbg.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -12,54 +12,54 @@ body {
 }
 
 a:link {
-  color: pink;
-}
-a:visited {
-  color: pink;
-}
-a:hover {
-  color: red;
-}
-a:active {
-  color: red;
-}
+    color: lightblue;
+  }
+  a:visited {
+    color: lightblue;
+  }
+  a:hover {
+    color: black;
+  }
+  a:active {
+    color: black;
+  }
 
-header {
-  font-family: Arial, Helvetica, sans-serif
-}
+  header {
+    font-family: Arial, Helvetica, sans-serif
+  }
 
-.home:link {
-  color: white;
-  text-decoration: none;
-}
-.home:visited {
-  color: white;
-  text-decoration: none;
-}
-.home:hover {
-  color: red;
-  text-decoration: none;
-}
-.home:active {
-  color: red;
-  text-decoration: none;
-}
+  .home:link {
+    color: grey;
+    text-decoration: none;
+  }
+  .home:visited {
+    color: grey;
+    text-decoration: none;
+  }
+  .home:hover {
+    color: black;
+    text-decoration: none;
+  }
+  .home:active {
+    color: black;
+    text-decoration: none;
+  }
 
-p {
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-}
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+  }
 
-hr {
-  border: 1px solid pink;
-  margin-top: -10px;
-  margin-bottom: 10px
+  hr {
+    border: 1px solid lightblue;
+    margin-top: -10px;
+    margin-bottom: 10px
+  
+  }
 
-}
-
-h2 {
-  color: white;
-}
+  h2 {
+    color: grey;
+  }
 
 .headerlink {
   padding-left: 10px;
@@ -86,7 +86,7 @@ h2 {
       width: 100vw;
       height: 100vh;
       z-index: -10;
-      background: url(/img/morguebg.png) no-repeat center center;
+      background: url(/img/polkadotbg.png) no-repeat center center;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
