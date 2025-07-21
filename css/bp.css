@@ -9,14 +9,14 @@ html {
   
   body {
     min-height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif
   }
 
   a:link {
-    color: lightblue;
+    color: red;
   }
   a:visited {
-    color: lightblue;
+    color: red;
   }
   a:hover {
     color: black;
@@ -26,40 +26,40 @@ html {
   }
 
   header {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: 'Times New Roman', Times, serif;
   }
 
   .home:link {
-    color: grey;
+    color: black;
     text-decoration: none;
   }
   .home:visited {
-    color: grey;
+    color: black;
     text-decoration: none;
   }
   .home:hover {
-    color: black;
+    color: red;
     text-decoration: none;
   }
   .home:active {
-    color: black;
+    color: red;
     text-decoration: none;
   }
 
   p {
-    font-family: Arial, Helvetica, sans-serif;
-    color: grey;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
   }
 
   hr {
-    border: 1px solid lightblue;
+    border: 1px solid black;
     margin-top: -10px;
     margin-bottom: 10px
   
   }
 
   h2 {
-    color: grey;
+    color: black;
   }
 
   .headerlink {
@@ -67,12 +67,12 @@ html {
   }
 
   marquee {
-    font-family: Arial, Helvetica, sans-serif;
-    color: darkgrey;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
   }
 
   .title {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
   }
 
