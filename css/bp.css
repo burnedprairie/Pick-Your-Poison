@@ -68,7 +68,7 @@ html {
 
   marquee {
     font-family: 'Times New Roman', Times, serif;
-    color: black;
+    color: red;
   }
 
   .title {
@@ -160,7 +160,7 @@ html {
       width: 100vw;
       height: 100vh;
       z-index: -10;
-      background: url(/img/polkadotbg.png) no-repeat center center;
+      background: url(/img/tgd\ bg.jpeg) no-repeat center center;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
