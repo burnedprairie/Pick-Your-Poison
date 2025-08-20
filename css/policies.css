@@ -1,5 +1,5 @@
 html {
-  background: url(/img/polkadotbg.png) no-repeat center center fixed;
+  background: url(/img/tgd\ bg.jpeg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -12,10 +12,10 @@ body {
 }
 
 a:link {
-    color: lightblue;
+    color: red;
   }
   a:visited {
-    color: lightblue;
+    color: red;
   }
   a:hover {
     color: black;
@@ -25,40 +25,40 @@ a:link {
   }
 
   header {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: 'Times New Roman', Times, serif;
   }
 
   .home:link {
-    color: grey;
+    color: black;
     text-decoration: none;
   }
   .home:visited {
-    color: grey;
+    color: black;
     text-decoration: none;
   }
   .home:hover {
-    color: black;
+    color: red;
     text-decoration: none;
   }
   .home:active {
-    color: black;
+    color: red;
     text-decoration: none;
   }
 
   p {
-    font-family: Arial, Helvetica, sans-serif;
-    color: grey;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
   }
 
   hr {
-    border: 1px solid lightblue;
+    border: 1px solid black;
     margin-top: -10px;
     margin-bottom: 10px
   
   }
 
   h2 {
-    color: grey;
+    color: black;
   }
 
 .headerlink {
@@ -66,7 +66,7 @@ a:link {
 }
 
 .title {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     text-decoration: underline;
   }
 
@@ -75,12 +75,12 @@ a:link {
   }
 
   .section-title {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     text-decoration: underline;
   }
 
   .bold {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: 'Times New Roman', Times, serif;
   }
 
   .stairs {
@@ -99,7 +99,7 @@ a:link {
       width: 100vw;
       height: 100vh;
       z-index: -10;
-      background: url(/img/polkadotbg.png) no-repeat center center;
+      background: url(/img/tgd\ bg.jpeg) no-repeat center center;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
