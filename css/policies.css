@@ -1,5 +1,5 @@
 html {
-  background: url(/img/tgd\ bg.jpeg) no-repeat center center fixed;
+  background: url(/img/cmh\ bg.JPG) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -18,10 +18,10 @@ a:link {
     color: red;
   }
   a:hover {
-    color: black;
+    color: white;
   }
   a:active {
-    color: black;
+    color: white;
   }
 
   header {
@@ -29,11 +29,11 @@ a:link {
   }
 
   .home:link {
-    color: black;
+    color: white;
     text-decoration: none;
   }
   .home:visited {
-    color: black;
+    color: white;
     text-decoration: none;
   }
   .home:hover {
@@ -47,18 +47,18 @@ a:link {
 
   p {
     font-family: 'Times New Roman', Times, serif;
-    color: black;
+    color: white;
   }
 
   hr {
-    border: 1px solid black;
+    border: 1px solid white;
     margin-top: -10px;
     margin-bottom: 10px
   
   }
 
   h2 {
-    color: black;
+    color: white;
   }
 
 .headerlink {
@@ -99,7 +99,7 @@ a:link {
       width: 100vw;
       height: 100vh;
       z-index: -10;
-      background: url(/img/tgd\ bg.jpeg) no-repeat center center;
+      background: url(/img/cmh\ bg.JPG) no-repeat center center;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
