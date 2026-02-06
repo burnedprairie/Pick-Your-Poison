@@ -1,0 +1,83 @@
+html {
+    background-color: black;
+    
+  }
+
+  @font-face {
+    font-family: MS;
+    src: url(/fonts/Arial\ Rounded\ MT\ Regular.ttf);
+  }
+
+  @font-face {
+    font-family: MSBold;
+    src: url(/fonts/Arial\ Rounded\ Bold.ttf);
+  }
+  
+  body {
+    min-height: 100vh;
+    font-family: 'MS'
+  }
+
+  .centered {
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  header {
+    font-family: MSBold;
+  }
+
+
+  p {
+    font-family: MS;
+    color: white;
+  }
+
+  hr {
+    border: 1px solid #FF85D3;
+    margin-top: -10px;
+    margin-bottom: 10px
+  
+  }
+
+  h1 {
+    color: white;
+    font-family: MSBold;
+  }
+
+  h2 {
+    color: white;
+  }
+
+  .headerlink {
+    padding-left: 10px;
+  }
+
+  img {
+    width: 100%;
+  }
+
+
+
+  @media only screen and (max-width: 600px) {
+
+    img {
+    width: 100%;
+  }
+
+    .headerlink {
+      font-size: 15px;
+    }
+
+    .headerlink2 {
+      font-size: 15px;
+    }
+
+    .description {
+      padding-right: 0;
+    }
+    
+  }

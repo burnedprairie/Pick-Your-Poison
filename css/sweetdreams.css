@@ -1,5 +1,5 @@
 html {
-  background: url(/img/archive/sweet\ dreams/hall.jpeg) no-repeat center center fixed;
+  background: url(/img/collections/sweet\ dreams/hall.jpeg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -90,7 +90,7 @@ img {
       width: 100vw;
       height: 100vh;
       z-index: -10;
-      background: url(/img/archive/sweet\ dreams/hall.jpeg) no-repeat center center;
+      background: url(/img/collections/sweet\ dreams/hall.jpeg) no-repeat center center;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;

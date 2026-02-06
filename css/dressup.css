@@ -1,5 +1,5 @@
 html {
-  background: url(/img/archive/dress\ up/forest.jpg) no-repeat center center fixed;
+  background: url(/img/collections/dress\ up/forest.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -84,7 +84,7 @@ body:before {
   width: 100vw;
   height: 100vh;
   z-index: -10;
-  background: url(/img/archive/dress\ up/forest.jpg) no-repeat center center;
+  background: url(/img/collections/dress\ up/forest.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

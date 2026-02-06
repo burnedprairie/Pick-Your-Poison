@@ -1,0 +1,125 @@
+html {
+  background: url(/img/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@font-face {
+    font-family: MS;
+    src: url(/fonts/Arial\ Rounded\ MT\ Regular.ttf);
+  }
+
+@font-face {
+    font-family: MSBold;
+    src: url(/fonts/Arial\ Rounded\ Bold.ttf);
+  }
+
+
+body {
+    min-height: 100vh;
+    font-family: 'MS'
+  }
+
+:link {
+    color: #FF85D3;
+  }
+a:visited {
+    color: #FF85D3;
+  }
+a:hover {
+    color: red;
+  }
+a:active {
+    color: red;
+  }
+
+header {
+    font-family: MSBold;
+  }
+
+.home:link {
+    color: black;
+    text-decoration: none;
+  }
+.home:visited {
+    color: black;
+    text-decoration: none;
+  }
+.home:hover {
+    color: red;
+    text-decoration: none;
+  }
+.home:active {
+    color: red;
+    text-decoration: none;
+  }
+
+p {
+    font-family: MS;
+    color: black;
+  }
+
+hr {
+    border: 1px solid #FF85D3;
+    margin-top: -10px;
+    margin-bottom: 10px
+  
+  }
+
+h2 {
+    font-family: MSBold;
+    color: black;
+  }
+
+  .headerlink {
+    padding-left: 10px;
+  }
+
+.title {
+    font-family: MSBold;
+    text-decoration: underline;
+  }
+
+.section-title {
+    font-family: MSBold;
+    text-decoration: underline;
+}
+
+.main-p {
+    padding-right: 100px;
+  }
+
+
+@media only screen and (max-width: 600px) {
+
+    body:before {
+      content: "";
+      display: block;
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100vw;
+      height: 100vh;
+      z-index: -10;
+      background: url(/img/bg.jpg) no-repeat center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+
+    .headerlink {
+      font-size: 15px;
+    }
+
+    .headerlink2 {
+      font-size: 15px;
+    }
+
+    .main-p {
+      padding-right: 0;
+    }
+    
+  }
