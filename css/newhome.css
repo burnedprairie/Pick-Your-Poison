@@ -101,14 +101,6 @@ html {
     max-width: 500px;
   }
 
-  .syringe {
-    width: 2%;
-  }
-
-  .butterfly {
-    width: 5%;
-  }
-
   .description {
     padding-right: 100px;
   }
@@ -119,6 +111,7 @@ html {
       left: 50%;
       transform: translate(-50%, -50%);
       text-align: center;
+      font-family: MS;
   }
   
   :focus {
@@ -128,8 +121,6 @@ html {
   .shopify-buy-frame--toggle.is-active.is-sticky {
     border: 2px solid black;
     border-radius: 5px;
-    
-    
     position: fixed;
     right: 10px;
     top: 60px;

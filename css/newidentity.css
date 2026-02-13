@@ -121,5 +121,9 @@ h2 {
     .main-p {
       padding-right: 0;
     }
+
+    .stairs {
+      width: 95%;
+    }
     
   }
